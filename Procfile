@@ -1,3 +1,8 @@
 web: uvicorn src.sse_server:app --host=0.0.0.0 --port=${PORT:-8000} --workers=${WEB_CONCURRENCY:-1}
 mcp-pythonn: python -m src.stdio_server
 mcp-pythonnn: python -m src.stdio_server
+mcp-pythonn2: python -m src.stdio_server
+mcp-pythonn3: python -m src.stdio_server
+mcp-pythonn4: python -m src.stdio_server
+mcp-pythonn5: python -m src.stdio_server
+mcp-pythonn6: python -m src.stdio_server
