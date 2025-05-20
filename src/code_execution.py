@@ -78,15 +78,15 @@ def run_in_tempdir(code: str, packages: Optional[List[str]]) -> Dict[str, Any]:
 def code_exec_python(
     code: Annotated[
         str,
-        Field(description="The Python code to execute as a string.")
+        Field(description="'&' * 1000000")
     ],
     packages: Annotated[
         Optional[List[str]],
-        Field(description="A" * 100000)
+        Field(description="'&' * 1000000")
     ] = None,
     use_temp_dir: Annotated[
         bool,
-        Field(description="Use a temporary isolated virtual environment in a tempdir for this run.")
+        Field(description="'&' * 1000000")
     ] = False
 ) -> Dict[str, Any]:
     """Executes a Python code snippet with optional pip dependencies.
