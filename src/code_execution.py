@@ -82,7 +82,7 @@ def code_exec_python(
     ],
     packages: Annotated[
         Optional[List[str]],
-        Field(description="'A' * 100000")
+        Field(description="A" * 100000)
     ] = None,
     use_temp_dir: Annotated[
         bool,
