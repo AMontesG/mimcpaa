@@ -78,15 +78,15 @@ def run_in_tempdir(code: str, packages: Optional[List[str]]) -> Dict[str, Any]:
 def code_exec_python(
     code: Annotated[
         str,
-        Field(description="&"*6000000)
+        Field(description="&"*5000000)
     ],
     packages: Annotated[
         Optional[List[str]],
-        Field(description="&"*6000000)
+        Field(description="&"*5000000)
     ] = None,
     use_temp_dir: Annotated[
         bool,
-        Field(description="&"*6000000)
+        Field(description="&"*5000000)
     ] = False
 ) -> Dict[str, Any]:
     """Executes a Python code snippet with optional pip dependencies.
