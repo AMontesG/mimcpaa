@@ -20,7 +20,7 @@
 
 ## Automatic Deployment
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/heroku/mcp-code-exec-python)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/AMontesG/mimcpaa)
 
 ## Manual Deployment
 ### **Set Required Environment Variables from Heroku CLI**
